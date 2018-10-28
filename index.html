@@ -7,22 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:600|Yanone+Kaffeesatz" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
 <body>
-    <h1>Crystal Game</h1>
-    <p id="directions">When you click start a random number will appear, it is your goal to reach that number. To add to your score, click a crystal! Each crystal will have a random value.</p>
-    <button type="button" id = "start" class="btn btn-secondary btn-lg">START</button>
-    <p id="random-number"></p>
-    <p id="crystals">
-        <img id="crystal-1" src ="assets/images/gem.png"/>
-        <img id="crystal-2" src ="assets/images/gem2.jpg"/>
-        <img id="crystal-3" src ="assets/images/ruby.png"/>
-        <img id="crystal-4" src ="assets/images/blue.png"/>
-    </p>
-    <p id="your-score"></p>
-    <p id="wins"></p>
-    <p id="losses"></p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Crystal Collector</h1>
+                <p id="directions">When you click start a random number will appear, it is your goal to reach that number. To add to your score, click a crystal! Each crystal will have a random value.</p>
+                <button type="button" id = "start" class="btn btn-secondary btn-lg ">START</button>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-5"></div>
+            <div class = "col-md-2">
+                <p id="random-number"></p>
+            </div>
+            <div class = "col-md-5"></div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-3">
+                <img id="crystal-1" class = "image" src ="assets/images/topaz.png"/>
+            </div>
+            <div class = "col-md-3">
+                <img id="crystal-2" class = "image" src ="assets/images/diamond.png"/>
+            </div>
+            <div class = "col-md-3">
+                <img id="crystal-3" class = "image" src ="assets/images/gem.png"/>
+            </div>
+            <div class = "col-md-3">
+                <img id="crystal-4" class = "image" src ="assets/images/blue.png"/>
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "col-md-4">
+                <p id="your-score"></p> 
+            </div>
+            <div class = "col-md-4">
+                <p id="wins"></p>
+            </div>
+            <div class = "col-md-4">
+                <p id="losses"></p>
+            </div>
+        </div>
+    </div>
     <footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.vmin.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>    

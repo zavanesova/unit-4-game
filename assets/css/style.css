@@ -1,4 +1,42 @@
 body{
-    background:blue;
-    
+    background: url("../images/background.png");
+}
+
+.image{
+    height:160px;
+    width: 160px;
+    align-content: center;
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    color: #d0dbf2;
+}
+#directions{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #42b9f4;
+}
+
+#start{
+    text-align: center;
+}
+
+#random-number{
+    font-family: 'Chakra Petch', sans-serif;
+    color: #77cdd8;
+    font-size: 50px;
+}
+
+#your-score,
+#wins,
+#losses{
+    font-family: 'Chakra Petch', sans-serif;
+    color:#6f87b7;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
 }
