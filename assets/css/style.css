@@ -22,13 +22,20 @@ h1{
 }
 
 #start{
+    background-color: #182d6b;
+    border: 4px solid #09163d;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #5469a5;
+    padding: 15px 25px 15px 25px;
+    font-size: 30px;
     text-align: center;
+    margin: 22px;
 }
 
 #random-number{
     font-family: 'Chakra Petch', sans-serif;
     color: #77cdd8;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 #your-score,
@@ -38,5 +45,5 @@ h1{
     color:#6f87b7;
     font-size: 40px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
 }
